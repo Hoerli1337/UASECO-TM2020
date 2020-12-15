@@ -1,3 +1,19 @@
+Hello guys,
+this is my Fork of UASECO 0.9.7 for TM2020 Trackmania https://trackmania.com/
+
+I want to get it to run with TM2020 but ! ATTENTION! Actual changes keep Clients to crash from time to time (game is instantly closing)
+This Fork/Branch is tested on Windows Server. To USE IT follow the installation instructions of UASECO https://www.uaseco.org/
+You should setup fresh server controllers for TM2020, its not recommended to use existing installations from TM2.
+
+Working Alternatives to UASECO are PyPlanet https://github.com/PyPlanet/PyPlanet and EvoSC https://github.com/EvoTM/EvoSC
+
+This FORK is OPEN for Feedback.
+
+
+
+
+
+Official UASECO Part
 [![Donate](https://img.shields.io/badge/paypal-donate-yellow.svg)](https://paypal.me/UASECO)
 [![Latest Stable Version](https://poser.pugx.org/undeflabs/uaseco/v/stable?format=flat-square)](https://packagist.org/packages/undeflabs/uaseco)
 [![License](https://poser.pugx.org/undeflabs/uaseco/license?format=flat-square)](https://packagist.org/packages/undeflabs/uaseco)
