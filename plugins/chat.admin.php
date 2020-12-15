@@ -4071,7 +4071,7 @@ class PluginChatAdmin extends Plugin {
 
 		if (isset($aseco->plugins['PluginRasp']) === true) {
 			$source = 'MX';
-			$remotelink = 'http://tm.mania-exchange.com/tracks/download/';
+			$remotelink = 'http://trackmania.exchange/tracks/download/';
 
 			if (count($command['params']) === 1) {
 				$msg = new Message('chat.admin', 'message_mxid_required');

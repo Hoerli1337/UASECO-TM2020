@@ -246,7 +246,7 @@ class MXInfoFetcher {
 			$dir = 'maps';
 		}
 
-		$url = 'http://api.mania-exchange.com/' . $this->prefix . '/' . $dir . '/' . ($isuid ? $this->uid : $this->id);
+		$url = 'http://api.mania.exchange/' . $this->prefix . '/' . $dir . '/' . ($isuid ? $this->uid : $this->id);
 		$file = $this->getFile($url);
 		if ($file === false) {
 			$this->error = '[MXInfoFetcher] Connection or response error on '. $url;
@@ -340,7 +340,7 @@ class MXInfoFetcher {
 		$this->recordlist = array();
 		if ($this->prefix == 'tm' && $this->records) {
 			$limit = 25;
-			$url = 'http://api.mania-exchange.com/' . $this->prefix . '/replays/' . $this->id . '/' . $limit . '/';
+			$url = 'https://api.mania.exchange/' . $this->prefix . '/replays/' . $this->id . '/' . $limit . '/';
 			$file = $this->getFile($url);
 			if ($file === false) {
 				$this->error = '[MXInfoFetcher] Connection or response error on ' . $url;

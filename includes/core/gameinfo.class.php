@@ -131,10 +131,10 @@ class Gameinfo extends BaseClass {
 
 		// ModeBase
 		$this->modebase['ChatTime']			= $modescript['settings']['S_ChatTime'];
-		$this->modebase['AllowRespawn']			= $modescript['settings']['S_AllowRespawn'];
+	//	$this->modebase['AllowRespawn']			= $modescript['settings']['S_AllowRespawn'];
 		$this->modebase['RespawnBehaviour']		= $modescript['settings']['S_RespawnBehaviour'];
-		$this->modebase['HideOpponents']		= $modescript['settings']['S_HideOpponents'];
-		$this->modebase['UseLegacyXmlRpcCallbacks']	= $modescript['settings']['S_UseLegacyXmlRpcCallbacks'];
+	//	$this->modebase['HideOpponents']		= $modescript['settings']['S_HideOpponents'];
+	//	$this->modebase['UseLegacyXmlRpcCallbacks']	= $modescript['settings']['S_UseLegacyXmlRpcCallbacks'];
 		$this->modebase['UseClublinks']			= $modescript['settings']['S_UseClublinks'];
 		$this->modebase['UseClublinksSponsors']		= $modescript['settings']['S_UseClublinksSponsors'];
 		$this->modebase['NeutralEmblemUrl']		= $modescript['settings']['S_NeutralEmblemUrl'];

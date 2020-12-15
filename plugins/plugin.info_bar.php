@@ -411,7 +411,7 @@ class PluginInfoBar extends Plugin {
 		if ($logins === false) {
 			foreach ($aseco->server->players->player_list as $player) {
 				$xml = $this->buildPlayerSpectatorCount($player->login, $show);
-				$xml .= $this->buildDonation($player->login, $show);
+			//	$xml .= $this->buildDonation($player->login, $show);
 				$xml .= $this->buildCurrentRanking($player->login, $show);
 				$xml .= $this->buildLastBestTime($player->login, $show);
 				$xml .= $this->buildGamemode($show);
@@ -419,15 +419,15 @@ class PluginInfoBar extends Plugin {
 				$xml .= $this->buildClock($player->login, $show);
 				$xml .= $this->buildPersonalBest($player->login, $this->players[$player->login]['personal_best'], $show);
 				$xml .= $this->buildLocalRecord($player->login, $this->players[$player->login]['local_record'], $show);
-				$xml .= $this->buildDedimaniaRecord($player->login, $this->players[$player->login]['dedimania_record'], $show);
-				$xml .= $this->buildManiaExchange($player->login, $this->players[$player->login]['mania_exchange'], $show);
+			//	$xml .= $this->buildDedimaniaRecord($player->login, $this->players[$player->login]['dedimania_record'], $show);
+			//	$xml .= $this->buildManiaExchange($player->login, $this->players[$player->login]['mania_exchange'], $show);
 				$aseco->sendManiaLink($xml, $player->login);
 			}
 		}
 		else {
 			foreach (explode(',', $logins) as $login) {
 				$xml = $this->buildPlayerSpectatorCount($login, $show);
-				$xml .= $this->buildDonation($login, $show);
+			//	$xml .= $this->buildDonation($login, $show);
 				$xml .= $this->buildCurrentRanking($login, $show);
 				$xml .= $this->buildLastBestTime($login, $show);
 				$xml .= $this->buildGamemode($show);
@@ -435,8 +435,8 @@ class PluginInfoBar extends Plugin {
 				$xml .= $this->buildClock($login, $show);
 				$xml .= $this->buildPersonalBest($login, $this->players[$login]['personal_best'], $show);
 				$xml .= $this->buildLocalRecord($login, $this->players[$login]['local_record'], $show);
-				$xml .= $this->buildDedimaniaRecord($login, $this->players[$login]['dedimania_record'], $show);
-				$xml .= $this->buildManiaExchange($login, $this->players[$login]['mania_exchange'], $show);
+			//	$xml .= $this->buildDedimaniaRecord($login, $this->players[$login]['dedimania_record'], $show);
+			//	$xml .= $this->buildManiaExchange($login, $this->players[$login]['mania_exchange'], $show);
 				$aseco->sendManiaLink($xml, $login);
 			}
 		}

@@ -573,7 +573,7 @@ class PluginModescriptHandler extends Plugin {
 					'login'				=> $params['login'],				// PlayerLogin
 					'race_time'			=> $params['racetime'],				// Total race time in milliseconds
 					'lap_time'			=> $params['laptime'],				// Lap time in milliseconds
-					'stunts_score'			=> $params['stuntsscore'],			// Stunts score
+				//	'stunts_score'			=> $params['stuntsscore'],			// Stunts score
 					'checkpoint_in_race'		=> ($params['checkpointinrace'] + 1),		// Number of checkpoints crossed since the beginning of the race
 					'current_race_checkpoints'	=> $params['curracecheckpoints'],		// Checkpoints times since the beginning of the race
 					'checkpoint_in_lap'		=> ($params['checkpointinlap'] + 1),		// Number of checkpoints crossed since the beginning of the lap
@@ -582,7 +582,7 @@ class PluginModescriptHandler extends Plugin {
 					'is_endlap'			=> $params['isendlap'],				// Is it the multilap checkpoint
 					'block_id'			=> $params['blockid'],				// Id of the checkpoint block
 					'speed'				=> $params['speed'],				// Speed of the player in km/h
-					'distance'			=> $params['distance'],				// Distance traveled by the player since the beginning of the race
+				//	'distance'			=> $params['distance'],				// Distance traveled by the player since the beginning of the race
 				);
 
 				if ($response['is_endrace'] === false && $response['is_endlap'] === false) {
@@ -920,16 +920,16 @@ class PluginModescriptHandler extends Plugin {
 									'map_points'			=> $item['mappoints'],
 									'match_points'			=> $item['matchpoints'],
 									'best_race_time'		=> $item['bestracetime'],		// Best race time in milliseconds
-									'best_race_respawns'		=> $item['bestracerespawns'],		// Number of respawn during best race
+								//	'best_race_respawns'		=> $item['bestracerespawns'],		// Number of respawn during best race
 									'best_race_checkpoints'		=> $item['bestracecheckpoints'],	// Checkpoints times during best race
 									'best_lap_time'			=> $item['bestlaptime'],		// Best lap time in milliseconds
-									'best_lap_respawns'		=> $item['bestlaprespawns'],		// Number of respawn during best lap
+								//	'best_lap_respawns'		=> $item['bestlaprespawns'],		// Number of respawn during best lap
 									'best_lap_checkpoints'		=> $item['bestlapcheckpoints'],		// Checkpoints times during best lap
 									'prev_race_time'		=> $item['prevracetime'],
-									'prev_race_respawns'		=> $item['prevracerespawns'],
+								//	'prev_race_respawns'		=> $item['prevracerespawns'],
 									'prev_race_checkpoints'		=> $item['prevracecheckpoints'],
-									'stunts_score'			=> $item['stuntsscore'],
-									'prev_stunts_score'		=> $item['prevstuntsscore'],
+								//	'stunts_score'			=> $item['stuntsscore'],
+								//	'prev_stunts_score'		=> $item['prevstuntsscore'],
 								);
 
 								$rank = $aseco->server->rankings->getRankByLogin($item['login']);
@@ -1505,10 +1505,10 @@ class PluginModescriptHandler extends Plugin {
 		// ModeBase
 		$modebase = array(
 			'S_ChatTime'				=> $aseco->server->gameinfo->modebase['ChatTime'],
-			'S_AllowRespawn'			=> $aseco->server->gameinfo->modebase['AllowRespawn'],
+		//	'S_AllowRespawn'			=> $aseco->server->gameinfo->modebase['AllowRespawn'],
 			'S_RespawnBehaviour'			=> $aseco->server->gameinfo->modebase['RespawnBehaviour'],
-			'S_HideOpponents'			=> $aseco->server->gameinfo->modebase['HideOpponents'],
-			'S_UseLegacyXmlRpcCallbacks'		=> $aseco->server->gameinfo->modebase['UseLegacyXmlRpcCallbacks'],
+		//	'S_HideOpponents'			=> $aseco->server->gameinfo->modebase['HideOpponents'],
+		//	'S_UseLegacyXmlRpcCallbacks'		=> $aseco->server->gameinfo->modebase['UseLegacyXmlRpcCallbacks'],
 			'S_UseClublinks'			=> $aseco->server->gameinfo->modebase['UseClublinks'],
 			'S_UseClublinksSponsors'		=> $aseco->server->gameinfo->modebase['UseClublinksSponsors'],
 			'S_NeutralEmblemUrl'			=> $aseco->server->gameinfo->modebase['NeutralEmblemUrl'],

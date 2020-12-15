@@ -111,7 +111,7 @@ class MXInfoSearcher implements Iterator,Countable {
 			$dir = 'tracks';
 		else // 'sm' || 'qm'
 			$dir = 'maps';
-		$url = 'https://api.mania-exchange.com/' . $this->prefix . '/' . $dir . '/list/latest';
+		$url = 'https://api.mania.exchange/' . $this->prefix . '/' . $dir . '/list/latest';
 		$file = $this->get_file($url);
 		if ($file === false) {
 			$this->error = 'Connection or response error on ' . $url;

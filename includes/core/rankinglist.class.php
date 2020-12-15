@@ -119,16 +119,16 @@ class RankingList extends BaseClass {
 			$entry->map_points			= $item['map_points'];
 			$entry->match_points			= $item['match_points'];
 			$entry->best_race_time			= $item['best_race_time'];
-			$entry->best_race_respawns		= $item['best_race_respawns'];
+		//	$entry->best_race_respawns		= $item['best_race_respawns'];
 			$entry->best_race_checkpoints		= $item['best_race_checkpoints'];
 			$entry->best_lap_time			= $item['best_lap_time'];
-			$entry->best_lap_respawns		= $item['best_lap_respawns'];
+		//	$entry->best_lap_respawns		= $item['best_lap_respawns'];
 			$entry->best_lap_checkpoints		= $item['best_lap_checkpoints'];
 			$entry->prev_race_time			= $item['prev_race_time'];
-			$entry->prev_race_respawns		= $item['prev_race_respawns'];
+		//	$entry->prev_race_respawns		= $item['prev_race_respawns'];
 			$entry->prev_race_checkpoints		= $item['prev_race_checkpoints'];
-			$entry->stunts_score			= $item['stunts_score'];
-			$entry->prev_stunts_score		= $item['prev_stunts_score'];
+		//	$entry->stunts_score			= $item['stunts_score'];
+		//	$entry->prev_stunts_score		= $item['prev_stunts_score'];
 
 			// Update full entry
 			$this->ranking_list[$entry->login.'XX'] = $entry;

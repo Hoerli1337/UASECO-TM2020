@@ -172,7 +172,7 @@ class PluginManiaExchange extends Plugin {
 
 
 		// Create the URL for the API call
-		$api_url = 'https://tm.mania-exchange.com/tracksearch2/search?api=on&format=json';
+		$api_url = 'https://trackmania.exchange/tracksearch2/search?api=on&format=json';
 		foreach ($params as $name => $value) {
 			$api_url .= '&'. $name .'='. urlencode($value);
 		}

@@ -3264,9 +3264,9 @@ EOL;
 			$content .= '</frame>';
 		}
 		else {
-			// Show link to tm.mania-exchange.com
+			// Show link to trackmania.exchange
 			$content .= '<frame pos="82.5 -0.375" z-index="0.02">';
-			$content .= '<quad pos="103.125 0.15" z-index="0.01" size="7.5 7.5" image="'. $this->config['images']['mx_logo_normal'] .'" imagefocus="'. $this->config['images']['mx_logo_focus'] .'" url="http:tm.mania-exchange.com/"/>';
+			$content .= '<quad pos="103.125 0.15" z-index="0.01" size="7.5 7.5" image="'. $this->config['images']['mx_logo_normal'] .'" imagefocus="'. $this->config['images']['mx_logo_focus'] .'" url="https://trackmania.exchange/"/>';
 			$content .= '</frame>';
 		}
 

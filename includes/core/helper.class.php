@@ -246,7 +246,7 @@ class Helper extends BaseClass {
 			$xml .= '  <login>'. $this->server->login .'</login>'.LF;
 			$xml .= '  <name><![CDATA['. $this->handleSpecialChars($this->stripStyles($this->server->name)) .']]></name>'.LF;
 			$xml .= '  <continent>'. $this->server->zone[0] .'</continent>'.LF;
-			$xml .= '  <country>'. $this->server->zone[1] .'</country>'.LF;
+			$xml .= '  <country>'. $this->server->zone[0] .'</country>'.LF;
 			$xml .= '  <protected>'. ((!empty($this->server->options['Password'])) ? 'true' : 'false') .'</protected>'.LF;
 			$xml .= '  <mode>'.LF;
 			$xml .= '   <title>'. $this->server->title .'</title>'.LF;

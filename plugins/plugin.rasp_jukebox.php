@@ -1067,7 +1067,7 @@ class PluginRaspJukebox extends Plugin {
 				try {
 					// Start sync GET request
 					$params = array(
-						'url'			=> 'http://tm.mania-exchange.com/tracks/download/'. $trkid,
+						'url'			=> 'https://trackmania.exchange/tracks/download/'. $trkid,
 						'sync'			=> true,
 						'user_agent'		=> USER_AGENT,
 					);
