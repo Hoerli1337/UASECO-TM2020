@@ -92,7 +92,7 @@ class Gameinfo extends BaseClass {
 				$this->mode = self::ROUNDS;
 				break;
 
-			case 'TimeAttack':
+			case 'Trackmania/TM_TimeAttack_Online':
 				$this->mode = self::TIME_ATTACK;
 				break;
 
