@@ -3,7 +3,7 @@
 
 	<!-- Displays the time differences between the current race and local record or dedimania record... -->
 	<time_diff_widget>
-		<enabled>true</enabled>
+		<enabled>false</enabled>
 
 		<pos_x>-21.25</pos_x>
 		<pos_y>-82.3125</pos_y>
@@ -30,7 +30,7 @@
 
 	<!-- Displays the current Checkpoint count, useful for RPG-Server. -->
 	<count_widget>
-		<enabled>true</enabled>
+		<enabled>false</enabled>
 		<text_color>DDDDEEFF</text_color>
 
 		<pos_x>-21.25</pos_x>
