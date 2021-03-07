@@ -6,7 +6,7 @@
 
 	<!-- Maximal required plugins -->
 	<plugin>plugin.manialinks.php</plugin>
-	<plugin>plugin.checkpoints.php</plugin>
+<!--	<plugin>plugin.checkpoints.php</plugin>	-->
 	<plugin>plugin.local_records.php</plugin>
 	<plugin>chat.admin.php</plugin>
 	<plugin>chat.server.php</plugin>
@@ -14,9 +14,9 @@
 	<!-- Optional plugins -->
 	<plugin>plugin.panels.php</plugin>
 	<plugin>plugin.map.php</plugin>
-	<plugin>plugin.dedimania.php</plugin>
+<!--	<plugin>plugin.dedimania.php</plugin>	-->
 	<plugin>plugin.welcome_center.php</plugin>
-	<plugin>plugin.tachometer.php</plugin>
+<!--	<plugin>plugin.tachometer.php</plugin>	-->
 	<plugin>plugin.info_bar.php</plugin>
 	<plugin>plugin.stunt_messages.php</plugin>
 	<plugin>plugin.donate.php</plugin>
